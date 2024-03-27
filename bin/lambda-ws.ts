@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { LambdaWsStack } from '../lib/lambda-ws-stack';
+import { LambdaWsStack } from '../lib/compute-ws-stack';
 
 const app = new cdk.App();
 new LambdaWsStack(app, 'LambdaWsStack', {
